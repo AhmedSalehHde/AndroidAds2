@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_modify_advertisements"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="ah1.com.advertisements_v1.ModifyAdvertisements"
+    android:background="@drawable/backgrondapp">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/my_toolbar"
+        />
+    <ScrollView
+        android:layout_below="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="94dp"
+                    app:srcCompat="@drawable/adwaylogo"
+                    android:id="@+id/imageView9" />
+
+                <TextView
+                    android:text="أضافة اعلان "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="#153e4b"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="0.03"
+                android:background="@drawable/our_image"
+                android:weightSum="1"
+                android:layout_margin="12dp"
+                android:layout_width="fill_parent">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    app:srcCompat="@drawable/addpict"
+                    android:background="@drawable/our_image"
+                    android:id="@+id/imgSelected"
+                    android:scaleType="fitCenter"
+                    android:layout_weight="0"
+                    android:layout_marginBottom="12dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:layout_weight="0"
+                    android:hint="عنوان الاعلان"
+                    android:id="@+id/EditTitle"
+                    android:background="?attr/colorControlHighlight"
+                    android:layout_marginBottom="12dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/EditDescrption"
+
+                    android:hint="وصف الاعلان"
+                    android:background="?attr/colorControlHighlight"
+                    android:layout_marginBottom="12dp" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/SpinnerTypeAds"
+                    android:layout_marginBottom="12dp" />
+
+                <Button
+                    android:text="رفـــــــــــــــــــــــع"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/buSubmit"
+                    android:layout_weight="0.1"
+                    android:background="@drawable/blue_btn_bkg"
+                    android:textColor="#ffffff"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

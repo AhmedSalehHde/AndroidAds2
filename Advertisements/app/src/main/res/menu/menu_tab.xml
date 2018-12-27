@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ah1.com.advertisements_v1.TabActivity">
+
+    <item android:id="@+id/action_login"
+        android:title="تسجيل الدخول"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_account"
+        android:title="الحساب"
+        app:showAsAction="never"/>
+
+
+</menu>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ads_username"
+                tools:text="ناشر الاعلان"
+                android:textSize="15sp"
+                android:textStyle="normal|bold"
+                android:padding="15dp"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/imge_sty"
+                android:background="@drawable/imge_sty"
+                android:layout_marginTop="4dp"
+                android:layout_weight=".2"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:id="@+id/ads_imageUser" />
+        </LinearLayout>
+
+        I
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:id="@+id/ads_image"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ads_title"
+            android:padding="15dp"
+            tools:text="عنوان الاعلان"
+            android:textStyle="normal|bold"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shep_porder">
+
+            <TextView
+                android:text="sanaa taiz ST"
+                android:layout_width="104dp"
+                android:layout_height="match_parent"
+                android:id="@+id/ads_location"
+                android:textAlignment="center"
+                android:padding="8dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/location2"
+                android:id="@+id/imageView4" />
+
+            <TextView
+                android:layout_width="112dp"
+                android:layout_height="match_parent"
+                android:id="@+id/ads_userphone"
+                tools:text="774 657 649"
+                android:textSize="14sp"
+
+                android:textAlignment="center"
+                android:padding="8dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/usercall"
+                android:id="@+id/imageView2"
+                android:layout_weight="0.34" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

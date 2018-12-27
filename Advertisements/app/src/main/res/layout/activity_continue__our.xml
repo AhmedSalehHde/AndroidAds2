@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_continue__our"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ah1.com.advertisements_v1.Continue_OurActivity"
+    android:background="@drawable/backgrondapp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:weightSum="1"
+
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                app:srcCompat="@drawable/adw"
+                android:id="@+id/imageView5"
+                android:layout_weight="0.38" />
+
+            <TextView
+                android:text="أد وي نصل للجميع باسهل الطرق !"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_weight="0.38"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="تواصل بنا "
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:id="@+id/textView3"
+                    android:padding="7dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/phone_icon"
+                    android:id="@+id/phone_ca"
+                    android:layout_weight="0"
+                    android:background="@android:color/transparent"
+                    android:onClick="callu" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="راسلنا عبر البرريد الالكتروني "
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4"
+                    android:padding="7dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/asaad"
+                    android:id="@+id/imageView8" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:text="راسلنا وتس اب"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView5"
+                    android:layout_weight="1"
+                    android:padding="7dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/whatsapp_ico"
+                    android:id="@+id/imageView9"
+                    android:layout_weight="0" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:text="تابع صفحتتنا في الفيس بوك "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView6"
+                    android:layout_weight="1"
+                    android:padding="7dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/facebook_ico"
+                    android:id="@+id/imageView10"
+                    android:layout_weight="0" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:text="شاهدنا على يوتيوب"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView7"
+                    android:layout_weight="1"
+                    android:padding="7dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/youtube_ico"
+                    android:id="@+id/imageView11"
+                    android:layout_weight="0" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:text="تابعنا على انستغرام"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView10"
+                    android:layout_weight="1"
+                    android:padding="7dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/insta_ico"
+                    android:id="@+id/imageView12"
+                    android:layout_weight="0" />
+            </LinearLayout>
+
+            <TextView
+                android:text="الاصدار 0.0.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:padding="10dp"
+                android:gravity="center"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_weight="0"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="Copy Right ADWAY TEAM 2018 ©"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView12"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
